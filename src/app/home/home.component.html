@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<app-cabecalho></app-cabecalho>
+
+<body>
+
+  <header>
+    <h2>Home</h2>
+  </header>
+
+
+  <div class="titulo">
+    <h4>Minha Equipe</h4>
+  </div>
+
+  <div class="minha-equipe">
+    <div class="cliente">
+      <div *ngFor="let slide of slides" class="slide">
+        <a [routerLink]="['/meuPerfil']">
+          <img src="{{ slide.img }}" alt="" class="img-style">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="titulo">
+    <h4>Clientes</h4>
+  </div>
+
+
+  <app-carrosel></app-carrosel>
+
+
+
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,13 @@
+<div style="margin-left: 10%; margin-right: 10%; margin-top: 50px;" >
+  <ngx-slick-carousel class="carousel"
+  #slickModal="slick-carousel"
+  [config]="slideConfig" class="teste">
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide" class="cliente">
+      <a [routerLink]="['/meuPerfil']">
+        <img src="{{ slide.img }}" alt="" class="img-style">
+      </a>
+    </div>
+  </ngx-slick-carousel>
+</div>
+
+

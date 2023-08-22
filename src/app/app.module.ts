@@ -3,14 +3,33 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BodyComponent } from './body/body.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { HomeComponent } from './home/home.component';
+import { MeuPerfilComponent } from './meu-perfil/meu-perfil.component';
+import { GestaoSquadsComponent } from './gestao-squads/gestao-squads.component';
+import { SairComponent } from './sair/sair.component';
+import { CarroselComponent } from './carrosel/carrosel.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BodyComponent,
+    SidenavComponent,
+    HomeComponent,
+    MeuPerfilComponent,
+    GestaoSquadsComponent,
+    SairComponent,
+    CarroselComponent,
+    CabecalhoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
