@@ -13,7 +13,8 @@ export class CarroselComponent  {
     {img: "../../assets/logos/mrv.png", title: 'Slide 1' },
     {img: "../../assets/logos/tangerino.png", title: 'Slide 1' },
     {img: "../../assets/logos/unimed.png", title: 'Slide 1' },
-    {img: "../../assets/logos/zelo.png", title: 'Slide 1' }
+    {img: "../../assets/logos/zelo.png", title: 'Slide 1' },
+    {img: "../../assets/logos//frame.png", title: 'Slide 1' }
 
   ];
 

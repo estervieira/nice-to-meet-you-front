@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   slides = [
-    {img: "../../assets/logos/zelo.png"}
+    {img: "../../assets/logos/frame.png"}
 
   ];
 

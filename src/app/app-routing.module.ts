@@ -10,7 +10,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'meuPerfil', component: MeuPerfilComponent},
   {path: 'gestaoSquads', component: GestaoSquadsComponent},
-  {path: 'sair', component: SairComponent}
+  {path: 'sair', component: SairComponent},
+  { path: '', pathMatch: 'full', redirectTo: 'dataForm' }
 ];
 
 @NgModule({
